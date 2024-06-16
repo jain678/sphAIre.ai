@@ -1,0 +1,39 @@
+.search-form {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    padding: 5px 10px;
+    max-width: 400px; /* Adjust width as needed */
+    background-color: white;
+  }
+  
+  .search-form input {
+    border: none;
+    outline: none;
+    flex: 1;
+    padding: 8px;
+    font-size: 20px;
+    width: 100rem;
+    height:20px;
+  }
+  
+  .search-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .send-icon {
+    width: 20px;
+    height: 20px;
+    fill: #333; /* Adjust color as needed */
+    /* background-color: white; */
+  }
+  .arrow{
+    width: 20px;
+    height: 20px;
+    fill: #333;
+    /* background-color: white; */
+  }
+  

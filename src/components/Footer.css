@@ -1,0 +1,67 @@
+/* .footer{
+    display: flex;
+    align-items: first baseline;
+    background-color: rgba(26, 78, 137, 0.849);
+    border-radius: 20px;
+    width: 50%;
+    height: 100px;
+}
+.footer img{
+    width: 25px;
+    height: 25px;
+    max-width: 50%;
+    max-height: 50%;
+    padding-left: 10px;
+}
+.footer p{
+    color: white;
+}
+.text{
+    display: flex;
+    align-items: center;
+} */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(26, 78, 137, 0.849);
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    text-align: center; /* Center text inside .text div */
+    padding: 20px;
+    border-radius: 20px;
+    width: 50%;
+  }
+  
+  .search-bar {
+    margin-bottom: 10px; /* Optional: Add space between search bar and text */
+    display: flex;
+    align-items: center;
+  }
+  .refresh-icon{
+    /* padding-right: 10px; */
+    background-color: rgb(194, 214, 224);
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 50px;
+
+  }
+  
+  .text {
+    display: flex;
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items horizontally */
+    flex-wrap: wrap; /* Allow items to wrap if needed */
+  }
+  
+  .text p {
+    margin: 0 10px; /* Adjust spacing between elements */
+    color: white;
+  }
+  
+  .text img {
+    width: 30px; /* Adjust image size as needed */
+    height: 30px;
+    margin: 0 10px; /* Adjust spacing around the image */
+  }
+  
