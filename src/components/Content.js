@@ -17,15 +17,15 @@ const questions = [
 function Content() {
   return (
     <ul className="question-list">
-      <li>
+      {/* <li>
         <div className="list">
           {questions.map((question) => {
             return <Button question={question} />;
           })}
         </div>
-      </li>
+      </li> */}
 
-      {/* <li className="list">
+      <li className="list">
         <button>What does sphAIre.ai do?</button>
       </li>
       <li className="list">
@@ -45,7 +45,7 @@ function Content() {
       </li>
       <li className="list">
         <button>How to get QR code for my campaigns?</button>
-      </li> */}
+      </li>
     </ul>
   );
 }
