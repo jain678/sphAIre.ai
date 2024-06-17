@@ -16,21 +16,23 @@ const SearchBar = (props) => {
   };
 
   return (
-    <form className="search-form" onSubmit={handleSubmit}>
-      <button className="search-button">
-        <Arrow className="send-icon" />
-      </button>
-      <input
-        type="text"
-        placeholder="Search or Ask to know more"
-        value={searchTerm}
-        onClick={props.onClick}
-        onChange={handleInputChange}
-      />
-      <button type="submit" className="search-button">
-        <SendIcon className="send-icon" />
-      </button>
-    </form>
+    <div className="form">
+      <form className="search-form" onSubmit={handleSubmit}>
+        <button className="search-button">
+          <Arrow className="send-icon" />
+        </button>
+        <input
+          type="text"
+          placeholder="Search or Ask to know more"
+          value={searchTerm}
+          onClick={props.onClick}
+          onChange={handleInputChange}
+        />
+        <button type="submit" className="search-button">
+          <SendIcon className="send-icon" />
+        </button>
+      </form>
+    </div>
   );
 };
 

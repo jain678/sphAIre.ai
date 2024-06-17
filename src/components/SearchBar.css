@@ -6,6 +6,11 @@
     padding: 5px 10px;
     max-width: 400px; /* Adjust width as needed */
     background-color: white;
+    
+  }
+  .form{
+    height: fit-content;
+    bottom: 0;
   }
   
   .search-form input {

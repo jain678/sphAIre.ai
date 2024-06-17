@@ -1,28 +1,30 @@
-/* html, body {
+html, body {
     margin: 0;
     padding-bottom: 30px;
     height: 100%;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    /* align-items: flex-end; */
     font-family: Arial, sans-serif;
-} */
-.app{
+}
+.bar{
+    bottom: 0;
+}
+/* .app{
     height: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;    
 }
 .home-page {
     position: absolute;
-    bottom: 60px; /* Adjust based on the height of the dialog */
+    bottom: 60px; 
     left: 50%;
     transform: translateX(-50%);
-    background-color: white;
+    background-color: black;
     padding: 20px;
     border: 1px solid #ccc;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     z-index: 1;
-}
+} */
 
