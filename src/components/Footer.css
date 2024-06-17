@@ -25,21 +25,20 @@
     display: flex;
     flex-direction: column;
     background-color: rgba(26, 78, 137, 0.849);
-    align-items: center; /* Center items horizontally */
-    justify-content: center; /* Center items vertically */
-    text-align: center; /* Center text inside .text div */
+    align-items: center;
+    justify-content: center; 
+    text-align: center; 
     padding: 20px;
     border-radius: 20px;
-    width: 50%;
+    /* width: 50%; */
   }
   
   .search-bar {
-    margin-bottom: 10px; /* Optional: Add space between search bar and text */
+    margin-bottom: 10px; 
     display: flex;
     align-items: center;
   }
   .refresh-icon{
-    /* padding-right: 10px; */
     background-color: rgb(194, 214, 224);
     padding: 10px;
     margin-right: 10px;
@@ -49,19 +48,19 @@
   
   .text {
     display: flex;
-    align-items: center; /* Center items horizontally */
-    justify-content: center; /* Center items horizontally */
-    flex-wrap: wrap; /* Allow items to wrap if needed */
+    align-items: center; 
+    justify-content: center;
+    flex-wrap: wrap; 
   }
   
   .text p {
-    margin: 0 10px; /* Adjust spacing between elements */
+    margin: 0 10px; 
     color: white;
   }
   
   .text img {
-    width: 30px; /* Adjust image size as needed */
+    width: 30px;
     height: 30px;
-    margin: 0 10px; /* Adjust spacing around the image */
+    margin: 0 10px; 
   }
   

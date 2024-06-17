@@ -1,14 +1,20 @@
-import './App.css';
-import Content from './components/Content';
-import Footer from './components/Footer';
-import Header from './components/Header';
+import "./App.css";
+import React, { useState } from "react";
+import Home from "./components/Home";
+import SearchBar from "./components/SearchBar";
+
 
 function App() {
+  const [show, setShow] = useState(false);
+
+  const clickHandler = () => {
+    setShow(true);
+  };
+
   return (
-    <div className="App">
-      <Header />
-      <Content />
-      <Footer />
+    <div className="app">
+      {!show && <SearchBar className="bar" onClick={clickHandler}/>}
+      {show && <Home className='home-page'/>}
     </div>
   );
 }

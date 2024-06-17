@@ -1,9 +1,9 @@
-.content{
+/* .content{
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center items horizontally */
-    justify-content: center; /* Center items vertically */
-    text-align: center; /* Center text inside .text div */
+    align-items: center;
+    justify-content: center; 
+    text-align: center; 
     padding: 20px;
     border-radius: 20px;
     width: 50%;
@@ -16,5 +16,44 @@
     flex-wrap: wrap;
     justify-content: center;
     list-style: none;
-    padding: 0;
+    padding: 10px;
 }
+button{
+    padding: 10px;
+    border-radius: 20px;
+}
+.list{
+    padding: 10px;
+} */
+
+.question-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    
+}
+.list {
+    margin: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding: 0px;
+}
+
+/* .question-list button {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    padding: 10px 20px;
+    cursor: pointer;
+    display:contents;
+} */
+/* 
+button:hover{
+    display: inline-block;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    z-index: 30;    
+} */
