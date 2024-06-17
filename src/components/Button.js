@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Button.css";
-import Header from "./Header";
-import Footer from "./Footer";
+import { ReactComponent as Search } from "../logos/search.svg";
+ 
 
 function Button(props) {
   const [isClick, setIsClick] = useState(false);
@@ -11,9 +11,10 @@ function Button(props) {
   };
   return (
     <div>
-      <button className= 'btn' onClick={clickHandler}><b>{props.question}</b></button>
-      {isClick && <p>{"Content will be displayed"}</p>}
-      {/* {isClick && <Footer />} */}
+      <button className= 'btn' onClick={clickHandler}>
+      <Search className="search"/>
+      <b>{props.question}</b>
+      </button>
     </div>
   );
 }
