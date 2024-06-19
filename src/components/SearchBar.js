@@ -18,9 +18,9 @@ const SearchBar = (props) => {
   return (
     <div className="form">
       <form className="search-form" onSubmit={handleSubmit}>
-        <button className="search-button">
+        {/* <button className="search-button"> */}
           <Arrow className="send-icon" />
-        </button>
+        {/* </button> */}
         <input
           type="text"
           placeholder="Search or Ask to know more"
@@ -28,9 +28,9 @@ const SearchBar = (props) => {
           onClick={props.onClick}
           onChange={handleInputChange}
         />
-        <button type="submit" className="search-button">
+        {/* <button type="submit" className="search-button"> */}
           <SendIcon className="send-icon" />
-        </button>
+        {/* </button> */}
       </form>
     </div>
   );

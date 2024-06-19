@@ -1,25 +1,43 @@
-button {
+/* .btn {
     display: flex;
     flex-wrap: wrap;    
     justify-content: center;
     list-style: none;
-    background-color: white;
+    
+    background-color: transparent;
     border: 1px solid #ccc;
     border-radius: 50px;
     padding: 10px 20px;
     cursor: pointer;
     display:contents;
     font-size: large;
-   
 }
 button:hover{
-    display: inline-block;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
-    z-index: 30;    
+    border: 2px solid  rgb(69, 69, 69);
+    border-color: black;
+}  */
+
+/* Base button styling */
+button {
+    display: flex;
+    flex-wrap:wrap ;
+    flex-direction:row;
+    background-color: transparent;
+    color: black;             
+    padding: 10px 20px;        
+    border: 2px solid transparent; 
+    cursor: pointer;           
+    border-radius: 20px;
+    align-items: start;
+    /* box-shadow: 0 0 0 1px #000; */
 }
-.btn{
-    margin: 10px;
+
+button:hover {
+    /* border: 2px solid #000; */
+    box-shadow: 0 0 0 0.25px black;
+    /* border-color: #000; Black border color on hover */
 }
+
 .search{
     width: 15px;
     height: 15px;

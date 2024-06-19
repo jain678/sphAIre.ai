@@ -26,10 +26,19 @@ button{
     padding: 10px;
 } */
 
+.content{
+    position: relative;
+}
+
+.content img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
 .question-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content:center;
   list-style: none;
   padding: 0;
 }
@@ -37,8 +46,8 @@ button{
   margin: 15px;
   display: flex;
   flex-wrap: wrap;
-  gap: 40px;
-  justify-content: center;
+  gap: 10px;
+  justify-content: flex-start;
   list-style: none;
   padding: 0px;
   position: relative;
